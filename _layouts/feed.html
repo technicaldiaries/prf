@@ -1,0 +1,39 @@
+
+{% include header.html %}
+
+
+  <div class="container-lg py-6 p-responsive text-center">
+    {% include masthead.html metadata=false %}
+
+    <div class="container-md f4 text-left rounded-2 p-3 p-sm-5 mt-6">
+      <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
+      <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </div>
+    <script src='rss-parser.js'></script>
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'></link>
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <script>
+    var sources = {{ site.sources | jsonify }};
+    </script>
+  </head>
+  <body>
+    <div id='title'>
+    </div>
+    <div id='hmbgr' onClick="toggle('#menu')">☰☰</div>
+    <div id='date'>
+    </div>
+    <div id='menu'>
+      {% for page in site.html_pages %}
+      <!--<a href='{{page.name}}'>{{page.title}}</a>-->
+      {% endfor %}
+    </div>
+    <div id='content'>
+    </div>
+    <div id='footer'>
+    </div>
+  </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js'></script>
+  <script src='script.js'></script>
+
