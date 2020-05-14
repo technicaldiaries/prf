@@ -1,6 +1,8 @@
 layout: sidebar
 style: dark
 
+
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
@@ -85,6 +87,13 @@ topics:
 title: Aggregated Feeds
 description: Personal RSS feed aggregator
 
+gitusername: ramitbedi
+gituseremail: ramitbedi@gmail.com
+gituserbio: Software engineer with thirst for knowledge and challenges.
+gituserimage: https://avatars2.githubusercontent.com/u/11096909?s=88&u=73c72962da4a33fcdd2fd16363230743b475edd9&v=4
+gituserdisplayname: Ramit Bedi
+gituserlocation: San Jose
+
 sources:
   Technology:
     DZONE:
@@ -162,6 +171,8 @@ sources:
       - https://www.pbs.org/newshour/feeds/rss/headlines
     BBC:
       - http://feeds.bbci.co.uk/news/rss.xml
+    TOI:
+      - https://timesofindia.indiatimes.com/rssfeedstopstories.cms?x=1
     Al Jazeera:
       - https://www.aljazeera.com/xml/rss/all.xml
     Reuters:
