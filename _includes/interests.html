@@ -1,7 +1,7 @@
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Daily Reads</h2>
-<p class="f5"><a href="/dailyfeed" class="d-flex flex-items-center">Daily Read Feed</a></p>
+<p class="f5"><a href="/dailyfeed" class="d-flex flex-items-center">Feed</a></p>
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Interests</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Topics I am inquisitive about.</p>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Topics I follow.</p>
 <div class="d-flex flex-wrap gutter-condensed mb-4">
   {% for topic in site.topics %}
     <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
