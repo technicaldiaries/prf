@@ -67,6 +67,9 @@ topics:
   - name: Android
     web_url: https://github.com/topics/android 
     image_url: /images/androidlogo.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: /images/python.png   
   - name: AI
     web_url: https://github.com/topics/ai  
     image_url: /images/AI.png    
